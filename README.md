@@ -5,11 +5,10 @@ Movie review sentiment analysis is a project which is based on natural language 
 # Prerequisites
 This is the list of required packages and modules for the project to be installed :
 
-Python 3.x
-Pandas
-Numpy
-re
-Scikit-learn
+Python 3.x ||
+Pandas ||
+Numpy ||
+Scikit-learn ||
 NLTK
 
 # The Dataset
