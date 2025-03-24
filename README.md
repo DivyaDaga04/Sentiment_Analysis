@@ -5,11 +5,11 @@ Movie review sentiment analysis is a project which is based on natural language 
 # Prerequisites
 This is the list of required packages and modules for the project to be installed :
 
-Python 3.x ||
-Pandas ||
-Numpy ||
-Scikit-learn ||
-NLTK
+* Python 3.x 
+* Pandas
+* Numpy 
+* Scikit-learn 
+* NLTK
 
 # The Dataset
 Human activities dataset contains about 50000 record which is a sample of movie reviews and a target column "sentiment" which describes the sentiment of the viewer about the movie whether it is positive or negative.
@@ -22,11 +22,11 @@ processes like :
 
 Loading the dataset
 Encoding ouput to binary (Positive : 1 , Negative : 0)
-Data cleaning : Remove HTML tags
-Data cleaning : Remove special characters
-Data cleaning : Convert everything to lowercase
-Data cleaning : Remove stopwords
-Data cleaning : Stemming
+* Data cleaning : Remove HTML tags
+* Data cleaning : Remove special characters
+* Data cleaning : Convert everything to lowercase
+* Data cleaning : Remove stopwords
+* Data cleaning : Stemming
 
 Section 2 | Model Creation :
 The dataset is ready for training, so we create a Naive Bayes model using scikit-learn and then fit it to the data.
